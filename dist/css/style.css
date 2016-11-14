@@ -1,0 +1,2 @@
+:root{--bg-color:#fff;--font-stack:18px "Helvetica Neue"}body,div,footer,h1,html,p{margin:0;padding:0}body{width:100%;background-color:var(--bg-color);color:#222;font:var(--font-stack)}.container{position:relative;height:100vh;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;text-transform:uppercase}.container.is-wild{display:none}.bg__movie{position:fixed;top:0;left:0;z-index:-1;min-width:1024px}
+/*# sourceMappingURL=style.css.map */

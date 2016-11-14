@@ -1,0 +1,41 @@
+:root {
+  --bg-color: #fff;
+  --font-stack: 18px "Helvetica Neue";
+}
+
+html,
+body,
+div,
+footer,
+h1,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  background-color: var(--bg-color);
+  color: #222;
+  font: var(--font-stack);
+}
+
+.container {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  &.is-wild {
+    display: none;
+  }
+}
+
+.bg__movie {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  min-width: 1024px;
+}
