@@ -30,7 +30,7 @@ gulp.task('css', () => {
       require('autoprefixer'),
       require('postcss-mixins'),
       require('postcss-nested'),
-      require('postcss-simple-vars'),
+      require('postcss-custom-properties'),
       stylelint(),
       reporter({ clearMessages: true }),
       require('cssnano')
