@@ -1,6 +1,6 @@
 :root {
   --bg-color: #fff;
-  --font-stack: 18px "Helvetica Neue";
+  --font-stack: 18px Arial, "Helvetica Neue", sans-serif;
 }
 
 html,
@@ -36,6 +36,5 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: -1;
   min-width: 1024px;
 }
