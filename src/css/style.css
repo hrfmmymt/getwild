@@ -26,10 +26,21 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  text-transform: uppercase;
+  flex-direction: column;
+
+  // get wild mode
   &.is-wild {
     display: none;
   }
+}
+
+h1 {
+  text-transform: uppercase;
+  margin-bottom: 2em;
+}
+
+code {
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
 }
 
 .bg__movie {
