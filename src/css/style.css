@@ -27,6 +27,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  line-height: 1.4;
 
   // get wild mode
   &.is-wild {
@@ -41,6 +42,10 @@ h1 {
 
 code {
   font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+}
+
+small {
+  margin-top: 1em;
 }
 
 .bg__movie {
